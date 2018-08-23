@@ -33,22 +33,22 @@ public class MainActivity extends AppCompatActivity {
         Labrador beau = new Labrador("Labrador", "Black", 95);
         beau.setName("Beau");
         Labrador cyra = new Labrador("Labrador", "Brown", 100);
-        beau.setName("Cyra");
+        cyra.setName("Cyra");
 
         Bulldog darryl = new Bulldog("Bulldog", "Grey", 35);
-        amber.setName("Darryl");
+        darryl.setName("Darryl");
         Bulldog elliot = new Bulldog("Bulldog", "Black and white", 40);
-        beau.setName("Elliot");
+        elliot.setName("Elliot");
         Bulldog fido = new Bulldog("Bulldog", "Brown", 37);
-        beau.setName("Fido");
+        fido.setName("Fido");
 
         Poodle george = new Poodle("Poodle", "White", 35);
-        amber.setName("George");
+        george.setName("George");
         Poodle harry = new Poodle("Poodle", "Black", 40);
-        beau.setName("Harry");
+        harry.setName("Harry");
         Poodle isabel = new Poodle("Poodle", "Pink", 37);
-        beau.setName("Isabel");
-        
+        isabel.setName("Isabel");
+
         dogNames.add(amber.getName());
         dogNames.add(beau.getName());
         dogNames.add(cyra.getName());
@@ -58,6 +58,16 @@ public class MainActivity extends AppCompatActivity {
         dogNames.add(george.getName());
         dogNames.add(harry.getName());
         dogNames.add(isabel.getName());
+
+//        dogNames.add("1");
+//        dogNames.add("2");
+//        dogNames.add("3");
+//        dogNames.add("4");
+//        dogNames.add("5");
+//        dogNames.add("6");
+//        dogNames.add("7");
+//        dogNames.add("8");
+//        dogNames.add("9");
 
         dogBreeds.add(amber.getBreed());
         dogBreeds.add(beau.getBreed());
